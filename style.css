@@ -1,0 +1,76 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+section.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.choice-grid div{
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+    width: 32.5%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.question-name {
+    background-position: center;
+  }
+
+@media (max-width:700px){
+    article{
+        width: 95%;
+    }
+
+    header div{
+        display: none;
+    }
+}
+
+@media (max-width:500px){
+    section.choice-grid div{
+        width: 49%;
+    }
+}
+
+
+.uncheckedbackground{
+    background-color: #f4f4f4 !important; 
+    opacity: 0.6;
+}
+
+.checkedbackground{
+    background-color: #cfe3ff !important;
+
+}
+
+#risultato{
+ margin: 20px 0px;
+ padding: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+#risultato h1{
+    margin: 0;
+}
+
+#risulato p{
+    margin: 18px 0px;
+}
+
+#risultato button{
+    height: 50px;
+    background-color: #cecece;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#risultato button:hover{
+    background-color: #e0e0e0;
+}
